@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7841D0641D4D104200E9E9E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7841D0631D4D104200E9E9E0 /* main.m */; };
+		7841D0671D4D104200E9E9E0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7841D0661D4D104200E9E9E0 /* AppDelegate.m */; };
+		7841D06A1D4D104200E9E9E0 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7841D0691D4D104200E9E9E0 /* FirstViewController.m */; };
+		7841D06D1D4D104200E9E9E0 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7841D06C1D4D104200E9E9E0 /* SecondViewController.m */; };
+		7841D0701D4D104200E9E9E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7841D06E1D4D104200E9E9E0 /* Main.storyboard */; };
+		7841D0721D4D104200E9E9E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7841D0711D4D104200E9E9E0 /* Assets.xcassets */; };
+		7841D0751D4D104200E9E9E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7841D0731D4D104200E9E9E0 /* LaunchScreen.storyboard */; };
+		7841D0801D4D104200E9E9E0 /* ChaeumTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7841D07F1D4D104200E9E9E0 /* ChaeumTests.m */; };
+		7841D08B1D4D104200E9E9E0 /* ChaeumUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7841D08A1D4D104200E9E9E0 /* ChaeumUITests.m */; };
+		7841D09C1D4D17B700E9E9E0 /* Sprout.png in Resources */ = {isa = PBXBuildFile; fileRef = 7841D09B1D4D17B700E9E9E0 /* Sprout.png */; };
+		7841D0A21D4D1CDF00E9E9E0 /* 성분.png in Resources */ = {isa = PBXBuildFile; fileRef = 7841D09E1D4D1CDF00E9E9E0 /* 성분.png */; };
+		7841D0A31D4D1CDF00E9E9E0 /* 썰전.png in Resources */ = {isa = PBXBuildFile; fileRef = 7841D09F1D4D1CDF00E9E9E0 /* 썰전.png */; };
+		7841D0A41D4D1CDF00E9E9E0 /* 장터.png in Resources */ = {isa = PBXBuildFile; fileRef = 7841D0A01D4D1CDF00E9E9E0 /* 장터.png */; };
+		7841D0A61D4D1CE800E9E9E0 /* Home.png in Resources */ = {isa = PBXBuildFile; fileRef = 7841D0A51D4D1CE800E9E9E0 /* Home.png */; };
+		7841D0A81D4DAF7A00E9E9E0 /* 리뷰.png in Resources */ = {isa = PBXBuildFile; fileRef = 7841D0A71D4DAF7A00E9E9E0 /* 리뷰.png */; };
+		7841D0AB1D4DB35000E9E9E0 /* 채움1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7841D0A91D4DB35000E9E9E0 /* 채움1.png */; };
+		7841D0AC1D4DB35000E9E9E0 /* 채움2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7841D0AA1D4DB35000E9E9E0 /* 채움2.png */; };
+		7841D0AE1D4DB78400E9E9E0 /* My.png in Resources */ = {isa = PBXBuildFile; fileRef = 7841D0AD1D4DB78400E9E9E0 /* My.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7841D07C1D4D104200E9E9E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7841D0571D4D104200E9E9E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7841D05E1D4D104200E9E9E0;
+			remoteInfo = Chaeum;
+		};
+		7841D0871D4D104200E9E9E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7841D0571D4D104200E9E9E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7841D05E1D4D104200E9E9E0;
+			remoteInfo = Chaeum;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7841D05F1D4D104200E9E9E0 /* Chaeum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chaeum.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7841D0631D4D104200E9E9E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7841D0651D4D104200E9E9E0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7841D0661D4D104200E9E9E0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7841D0681D4D104200E9E9E0 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		7841D0691D4D104200E9E9E0 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		7841D06B1D4D104200E9E9E0 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		7841D06C1D4D104200E9E9E0 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		7841D06F1D4D104200E9E9E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7841D0711D4D104200E9E9E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7841D0741D4D104200E9E9E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7841D0761D4D104200E9E9E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7841D07B1D4D104200E9E9E0 /* ChaeumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChaeumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7841D07F1D4D104200E9E9E0 /* ChaeumTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChaeumTests.m; sourceTree = "<group>"; };
+		7841D0811D4D104200E9E9E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7841D0861D4D104200E9E9E0 /* ChaeumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChaeumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7841D08A1D4D104200E9E9E0 /* ChaeumUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChaeumUITests.m; sourceTree = "<group>"; };
+		7841D08C1D4D104200E9E9E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7841D09B1D4D17B700E9E9E0 /* Sprout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sprout.png; sourceTree = "<group>"; };
+		7841D09E1D4D1CDF00E9E9E0 /* 성분.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "성분.png"; sourceTree = "<group>"; };
+		7841D09F1D4D1CDF00E9E9E0 /* 썰전.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "썰전.png"; sourceTree = "<group>"; };
+		7841D0A01D4D1CDF00E9E9E0 /* 장터.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "장터.png"; sourceTree = "<group>"; };
+		7841D0A51D4D1CE800E9E9E0 /* Home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Home.png; sourceTree = "<group>"; };
+		7841D0A71D4DAF7A00E9E9E0 /* 리뷰.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "리뷰.png"; sourceTree = "<group>"; };
+		7841D0A91D4DB35000E9E9E0 /* 채움1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "채움1.png"; sourceTree = "<group>"; };
+		7841D0AA1D4DB35000E9E9E0 /* 채움2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "채움2.png"; sourceTree = "<group>"; };
+		7841D0AD1D4DB78400E9E9E0 /* My.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = My.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7841D05C1D4D104200E9E9E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7841D0781D4D104200E9E9E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7841D0831D4D104200E9E9E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7841D0561D4D104200E9E9E0 = {
+			isa = PBXGroup;
+			children = (
+				7841D0611D4D104200E9E9E0 /* Chaeum */,
+				7841D07E1D4D104200E9E9E0 /* ChaeumTests */,
+				7841D0891D4D104200E9E9E0 /* ChaeumUITests */,
+				7841D0601D4D104200E9E9E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7841D0601D4D104200E9E9E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7841D05F1D4D104200E9E9E0 /* Chaeum.app */,
+				7841D07B1D4D104200E9E9E0 /* ChaeumTests.xctest */,
+				7841D0861D4D104200E9E9E0 /* ChaeumUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7841D0611D4D104200E9E9E0 /* Chaeum */ = {
+			isa = PBXGroup;
+			children = (
+				7841D0981D4D15DA00E9E9E0 /* image */,
+				7841D0651D4D104200E9E9E0 /* AppDelegate.h */,
+				7841D0661D4D104200E9E9E0 /* AppDelegate.m */,
+				7841D0681D4D104200E9E9E0 /* FirstViewController.h */,
+				7841D0691D4D104200E9E9E0 /* FirstViewController.m */,
+				7841D06B1D4D104200E9E9E0 /* SecondViewController.h */,
+				7841D06C1D4D104200E9E9E0 /* SecondViewController.m */,
+				7841D06E1D4D104200E9E9E0 /* Main.storyboard */,
+				7841D0711D4D104200E9E9E0 /* Assets.xcassets */,
+				7841D0731D4D104200E9E9E0 /* LaunchScreen.storyboard */,
+				7841D0761D4D104200E9E9E0 /* Info.plist */,
+				7841D0621D4D104200E9E9E0 /* Supporting Files */,
+			);
+			path = Chaeum;
+			sourceTree = "<group>";
+		};
+		7841D0621D4D104200E9E9E0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7841D0631D4D104200E9E9E0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7841D07E1D4D104200E9E9E0 /* ChaeumTests */ = {
+			isa = PBXGroup;
+			children = (
+				7841D07F1D4D104200E9E9E0 /* ChaeumTests.m */,
+				7841D0811D4D104200E9E9E0 /* Info.plist */,
+			);
+			path = ChaeumTests;
+			sourceTree = "<group>";
+		};
+		7841D0891D4D104200E9E9E0 /* ChaeumUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7841D08A1D4D104200E9E9E0 /* ChaeumUITests.m */,
+				7841D08C1D4D104200E9E9E0 /* Info.plist */,
+			);
+			path = ChaeumUITests;
+			sourceTree = "<group>";
+		};
+		7841D0981D4D15DA00E9E9E0 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				7841D09E1D4D1CDF00E9E9E0 /* 성분.png */,
+				7841D0A91D4DB35000E9E9E0 /* 채움1.png */,
+				7841D0AA1D4DB35000E9E9E0 /* 채움2.png */,
+				7841D0AD1D4DB78400E9E9E0 /* My.png */,
+				7841D0A51D4D1CE800E9E9E0 /* Home.png */,
+				7841D0A71D4DAF7A00E9E9E0 /* 리뷰.png */,
+				7841D09F1D4D1CDF00E9E9E0 /* 썰전.png */,
+				7841D0A01D4D1CDF00E9E9E0 /* 장터.png */,
+				7841D09B1D4D17B700E9E9E0 /* Sprout.png */,
+			);
+			name = image;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7841D05E1D4D104200E9E9E0 /* Chaeum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7841D08F1D4D104200E9E9E0 /* Build configuration list for PBXNativeTarget "Chaeum" */;
+			buildPhases = (
+				7841D05B1D4D104200E9E9E0 /* Sources */,
+				7841D05C1D4D104200E9E9E0 /* Frameworks */,
+				7841D05D1D4D104200E9E9E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Chaeum;
+			productName = Chaeum;
+			productReference = 7841D05F1D4D104200E9E9E0 /* Chaeum.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7841D07A1D4D104200E9E9E0 /* ChaeumTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7841D0921D4D104200E9E9E0 /* Build configuration list for PBXNativeTarget "ChaeumTests" */;
+			buildPhases = (
+				7841D0771D4D104200E9E9E0 /* Sources */,
+				7841D0781D4D104200E9E9E0 /* Frameworks */,
+				7841D0791D4D104200E9E9E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7841D07D1D4D104200E9E9E0 /* PBXTargetDependency */,
+			);
+			name = ChaeumTests;
+			productName = ChaeumTests;
+			productReference = 7841D07B1D4D104200E9E9E0 /* ChaeumTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7841D0851D4D104200E9E9E0 /* ChaeumUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7841D0951D4D104200E9E9E0 /* Build configuration list for PBXNativeTarget "ChaeumUITests" */;
+			buildPhases = (
+				7841D0821D4D104200E9E9E0 /* Sources */,
+				7841D0831D4D104200E9E9E0 /* Frameworks */,
+				7841D0841D4D104200E9E9E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7841D0881D4D104200E9E9E0 /* PBXTargetDependency */,
+			);
+			name = ChaeumUITests;
+			productName = ChaeumUITests;
+			productReference = 7841D0861D4D104200E9E9E0 /* ChaeumUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7841D0571D4D104200E9E9E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "김영훈";
+				TargetAttributes = {
+					7841D05E1D4D104200E9E9E0 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					7841D07A1D4D104200E9E9E0 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 7841D05E1D4D104200E9E9E0;
+					};
+					7841D0851D4D104200E9E9E0 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 7841D05E1D4D104200E9E9E0;
+					};
+				};
+			};
+			buildConfigurationList = 7841D05A1D4D104200E9E9E0 /* Build configuration list for PBXProject "Chaeum" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7841D0561D4D104200E9E9E0;
+			productRefGroup = 7841D0601D4D104200E9E9E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7841D05E1D4D104200E9E9E0 /* Chaeum */,
+				7841D07A1D4D104200E9E9E0 /* ChaeumTests */,
+				7841D0851D4D104200E9E9E0 /* ChaeumUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7841D05D1D4D104200E9E9E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7841D0AB1D4DB35000E9E9E0 /* 채움1.png in Resources */,
+				7841D0A61D4D1CE800E9E9E0 /* Home.png in Resources */,
+				7841D0A81D4DAF7A00E9E9E0 /* 리뷰.png in Resources */,
+				7841D0751D4D104200E9E9E0 /* LaunchScreen.storyboard in Resources */,
+				7841D09C1D4D17B700E9E9E0 /* Sprout.png in Resources */,
+				7841D0A21D4D1CDF00E9E9E0 /* 성분.png in Resources */,
+				7841D0721D4D104200E9E9E0 /* Assets.xcassets in Resources */,
+				7841D0A41D4D1CDF00E9E9E0 /* 장터.png in Resources */,
+				7841D0701D4D104200E9E9E0 /* Main.storyboard in Resources */,
+				7841D0A31D4D1CDF00E9E9E0 /* 썰전.png in Resources */,
+				7841D0AC1D4DB35000E9E9E0 /* 채움2.png in Resources */,
+				7841D0AE1D4DB78400E9E9E0 /* My.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7841D0791D4D104200E9E9E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7841D0841D4D104200E9E9E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7841D05B1D4D104200E9E9E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7841D06D1D4D104200E9E9E0 /* SecondViewController.m in Sources */,
+				7841D0671D4D104200E9E9E0 /* AppDelegate.m in Sources */,
+				7841D06A1D4D104200E9E9E0 /* FirstViewController.m in Sources */,
+				7841D0641D4D104200E9E9E0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7841D0771D4D104200E9E9E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7841D0801D4D104200E9E9E0 /* ChaeumTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7841D0821D4D104200E9E9E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7841D08B1D4D104200E9E9E0 /* ChaeumUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7841D07D1D4D104200E9E9E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7841D05E1D4D104200E9E9E0 /* Chaeum */;
+			targetProxy = 7841D07C1D4D104200E9E9E0 /* PBXContainerItemProxy */;
+		};
+		7841D0881D4D104200E9E9E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7841D05E1D4D104200E9E9E0 /* Chaeum */;
+			targetProxy = 7841D0871D4D104200E9E9E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7841D06E1D4D104200E9E9E0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7841D06F1D4D104200E9E9E0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7841D0731D4D104200E9E9E0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7841D0741D4D104200E9E9E0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7841D08D1D4D104200E9E9E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7841D08E1D4D104200E9E9E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7841D0901D4D104200E9E9E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Chaeum/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Chaeum.Chaeum;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7841D0911D4D104200E9E9E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Chaeum/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Chaeum.Chaeum;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7841D0931D4D104200E9E9E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ChaeumTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Chaeum.ChaeumTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chaeum.app/Chaeum";
+			};
+			name = Debug;
+		};
+		7841D0941D4D104200E9E9E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ChaeumTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Chaeum.ChaeumTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chaeum.app/Chaeum";
+			};
+			name = Release;
+		};
+		7841D0961D4D104200E9E9E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ChaeumUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Chaeum.ChaeumUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Chaeum;
+			};
+			name = Debug;
+		};
+		7841D0971D4D104200E9E9E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ChaeumUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Chaeum.ChaeumUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Chaeum;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7841D05A1D4D104200E9E9E0 /* Build configuration list for PBXProject "Chaeum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7841D08D1D4D104200E9E9E0 /* Debug */,
+				7841D08E1D4D104200E9E9E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7841D08F1D4D104200E9E9E0 /* Build configuration list for PBXNativeTarget "Chaeum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7841D0901D4D104200E9E9E0 /* Debug */,
+				7841D0911D4D104200E9E9E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7841D0921D4D104200E9E9E0 /* Build configuration list for PBXNativeTarget "ChaeumTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7841D0931D4D104200E9E9E0 /* Debug */,
+				7841D0941D4D104200E9E9E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7841D0951D4D104200E9E9E0 /* Build configuration list for PBXNativeTarget "ChaeumUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7841D0961D4D104200E9E9E0 /* Debug */,
+				7841D0971D4D104200E9E9E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7841D0571D4D104200E9E9E0 /* Project object */;
+}
