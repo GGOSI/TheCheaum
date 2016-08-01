@@ -38,6 +38,13 @@
 		7841D0AB1D4DB35000E9E9E0 /* 채움1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7841D0A91D4DB35000E9E9E0 /* 채움1.png */; };
 		7841D0AC1D4DB35000E9E9E0 /* 채움2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7841D0AA1D4DB35000E9E9E0 /* 채움2.png */; };
 		7841D0AE1D4DB78400E9E9E0 /* My.png in Resources */ = {isa = PBXBuildFile; fileRef = 7841D0AD1D4DB78400E9E9E0 /* My.png */; };
+		78FECDAB1D4F393400C38278 /* Home_Tips_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FECDAA1D4F393400C38278 /* Home_Tips_ViewController.m */; };
+		78FECDAF1D4F585800C38278 /* tip_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 78FECDAC1D4F585800C38278 /* tip_1.jpg */; };
+		78FECDB01D4F585800C38278 /* tip_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 78FECDAD1D4F585800C38278 /* tip_2.jpg */; };
+		78FECDB11D4F585800C38278 /* tip_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 78FECDAE1D4F585800C38278 /* tip_3.jpg */; };
+		78FECDB51D4F5FFB00C38278 /* review_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 78FECDB21D4F5FFB00C38278 /* review_1.jpg */; };
+		78FECDB61D4F5FFB00C38278 /* review_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 78FECDB31D4F5FFB00C38278 /* review_2.jpg */; };
+		78FECDB71D4F5FFB00C38278 /* review_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 78FECDB41D4F5FFB00C38278 /* review_3.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,6 +106,14 @@
 		7841D0A91D4DB35000E9E9E0 /* 채움1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "채움1.png"; sourceTree = "<group>"; };
 		7841D0AA1D4DB35000E9E9E0 /* 채움2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "채움2.png"; sourceTree = "<group>"; };
 		7841D0AD1D4DB78400E9E9E0 /* My.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = My.png; sourceTree = "<group>"; };
+		78FECDA91D4F393400C38278 /* Home_Tips_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Home_Tips_ViewController.h; sourceTree = "<group>"; };
+		78FECDAA1D4F393400C38278 /* Home_Tips_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Home_Tips_ViewController.m; sourceTree = "<group>"; };
+		78FECDAC1D4F585800C38278 /* tip_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tip_1.jpg; sourceTree = "<group>"; };
+		78FECDAD1D4F585800C38278 /* tip_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tip_2.jpg; sourceTree = "<group>"; };
+		78FECDAE1D4F585800C38278 /* tip_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tip_3.jpg; sourceTree = "<group>"; };
+		78FECDB21D4F5FFB00C38278 /* review_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = review_1.jpg; sourceTree = "<group>"; };
+		78FECDB31D4F5FFB00C38278 /* review_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = review_2.jpg; sourceTree = "<group>"; };
+		78FECDB41D4F5FFB00C38278 /* review_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = review_3.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,8 +167,13 @@
 				7841D0981D4D15DA00E9E9E0 /* image */,
 				7841D0651D4D104200E9E9E0 /* AppDelegate.h */,
 				7841D0661D4D104200E9E9E0 /* AppDelegate.m */,
+<<<<<<< HEAD
 				4DCF2A151D4F25610062F1DA /* DLRadioButton.h */,
 				4DCF2A161D4F25610062F1DA /* DLRadioButton.m */,
+=======
+				78FECDA91D4F393400C38278 /* Home_Tips_ViewController.h */,
+				78FECDAA1D4F393400C38278 /* Home_Tips_ViewController.m */,
+>>>>>>> 1699b0b9d632360ba33630ba68b5e9b501b5561d
 				7841D0681D4D104200E9E9E0 /* FirstViewController.h */,
 				7841D0691D4D104200E9E9E0 /* FirstViewController.m */,
 				7841D06B1D4D104200E9E9E0 /* SecondViewController.h */,
@@ -196,6 +216,7 @@
 		7841D0981D4D15DA00E9E9E0 /* image */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				4DCF2A091D4F00D70062F1DA /* 리뷰_클리닉.png */,
 				4DCF2A0A1D4F00D70062F1DA /* 리뷰_미용실.png */,
 				4DCF2A0B1D4F00D70062F1DA /* 리뷰_영양제.png */,
@@ -208,11 +229,19 @@
 				4DCF2A191D4F2DF50062F1DA /* LOL.png */,
 				4DCF2A1A1D4F2DF50062F1DA /* Sad.png */,
 				4DCF2A201D4F4CAF0062F1DA /* Exclamation Mark.png */,
+=======
+				78FECDB21D4F5FFB00C38278 /* review_1.jpg */,
+				78FECDB31D4F5FFB00C38278 /* review_2.jpg */,
+				78FECDB41D4F5FFB00C38278 /* review_3.jpg */,
+>>>>>>> 1699b0b9d632360ba33630ba68b5e9b501b5561d
 				7841D09E1D4D1CDF00E9E9E0 /* 성분.png */,
 				7841D0A91D4DB35000E9E9E0 /* 채움1.png */,
 				7841D0AA1D4DB35000E9E9E0 /* 채움2.png */,
-				7841D0AD1D4DB78400E9E9E0 /* My.png */,
+				78FECDAC1D4F585800C38278 /* tip_1.jpg */,
+				78FECDAD1D4F585800C38278 /* tip_2.jpg */,
+				78FECDAE1D4F585800C38278 /* tip_3.jpg */,
 				7841D0A51D4D1CE800E9E9E0 /* Home.png */,
+				7841D0AD1D4DB78400E9E9E0 /* My.png */,
 				7841D0A71D4DAF7A00E9E9E0 /* 리뷰.png */,
 				7841D09F1D4D1CDF00E9E9E0 /* 썰전.png */,
 				7841D0A01D4D1CDF00E9E9E0 /* 장터.png */,
@@ -333,6 +362,7 @@
 				7841D0AB1D4DB35000E9E9E0 /* 채움1.png in Resources */,
 				4DCF2A0F1D4F00D70062F1DA /* 리뷰_클리닉.png in Resources */,
 				7841D0A61D4D1CE800E9E9E0 /* Home.png in Resources */,
+				78FECDAF1D4F585800C38278 /* tip_1.jpg in Resources */,
 				7841D0A81D4DAF7A00E9E9E0 /* 리뷰.png in Resources */,
 				7841D0751D4D104200E9E9E0 /* LaunchScreen.storyboard in Resources */,
 				7841D09C1D4D17B700E9E9E0 /* Sprout.png in Resources */,
@@ -343,11 +373,22 @@
 				4DCF2A141D4F00D70062F1DA /* 리뷰_약품.png in Resources */,
 				7841D0A41D4D1CDF00E9E9E0 /* 장터.png in Resources */,
 				7841D0701D4D104200E9E9E0 /* Main.storyboard in Resources */,
+<<<<<<< HEAD
 				4DCF2A1D1D4F2DF50062F1DA /* Sad.png in Resources */,
+=======
+				78FECDB61D4F5FFB00C38278 /* review_2.jpg in Resources */,
+				78FECDB01D4F585800C38278 /* tip_2.jpg in Resources */,
+>>>>>>> 1699b0b9d632360ba33630ba68b5e9b501b5561d
 				7841D0A31D4D1CDF00E9E9E0 /* 썰전.png in Resources */,
 				7841D0AC1D4DB35000E9E9E0 /* 채움2.png in Resources */,
+				78FECDB51D4F5FFB00C38278 /* review_1.jpg in Resources */,
 				7841D0AE1D4DB78400E9E9E0 /* My.png in Resources */,
+<<<<<<< HEAD
 				4DCF2A1F1D4F4B2A0062F1DA /* Leaf.png in Resources */,
+=======
+				78FECDB11D4F585800C38278 /* tip_3.jpg in Resources */,
+				78FECDB71D4F5FFB00C38278 /* review_3.jpg in Resources */,
+>>>>>>> 1699b0b9d632360ba33630ba68b5e9b501b5561d
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,6 +417,7 @@
 				4DCF2A171D4F25610062F1DA /* DLRadioButton.m in Sources */,
 				7841D0671D4D104200E9E9E0 /* AppDelegate.m in Sources */,
 				7841D06A1D4D104200E9E9E0 /* FirstViewController.m in Sources */,
+				78FECDAB1D4F393400C38278 /* Home_Tips_ViewController.m in Sources */,
 				7841D0641D4D104200E9E9E0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
