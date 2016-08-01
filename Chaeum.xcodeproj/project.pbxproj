@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4DCF29FC1D4EF3240062F1DA /* 리뷰_배너.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DCF29FB1D4EF3240062F1DA /* 리뷰_배너.png */; };
+		4DCF2A0F1D4F00D70062F1DA /* 리뷰_클리닉.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DCF2A091D4F00D70062F1DA /* 리뷰_클리닉.png */; };
+		4DCF2A101D4F00D70062F1DA /* 리뷰_미용실.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DCF2A0A1D4F00D70062F1DA /* 리뷰_미용실.png */; };
+		4DCF2A111D4F00D70062F1DA /* 리뷰_영양제.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DCF2A0B1D4F00D70062F1DA /* 리뷰_영양제.png */; };
+		4DCF2A121D4F00D70062F1DA /* 리뷰_시술.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DCF2A0C1D4F00D70062F1DA /* 리뷰_시술.png */; };
+		4DCF2A131D4F00D70062F1DA /* 리뷰_샴푸.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DCF2A0D1D4F00D70062F1DA /* 리뷰_샴푸.png */; };
+		4DCF2A141D4F00D70062F1DA /* 리뷰_약품.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DCF2A0E1D4F00D70062F1DA /* 리뷰_약품.png */; };
+		4DCF2A171D4F25610062F1DA /* DLRadioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCF2A161D4F25610062F1DA /* DLRadioButton.m */; };
+		4DCF2A1B1D4F2DF50062F1DA /* Hospital.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DCF2A181D4F2DF50062F1DA /* Hospital.png */; };
+		4DCF2A1C1D4F2DF50062F1DA /* LOL.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DCF2A191D4F2DF50062F1DA /* LOL.png */; };
+		4DCF2A1D1D4F2DF50062F1DA /* Sad.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DCF2A1A1D4F2DF50062F1DA /* Sad.png */; };
+		4DCF2A1F1D4F4B2A0062F1DA /* Leaf.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DCF2A1E1D4F4B2A0062F1DA /* Leaf.png */; };
+		4DCF2A211D4F4CAF0062F1DA /* Exclamation Mark.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DCF2A201D4F4CAF0062F1DA /* Exclamation Mark.png */; };
 		7841D0641D4D104200E9E9E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7841D0631D4D104200E9E9E0 /* main.m */; };
 		7841D0671D4D104200E9E9E0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7841D0661D4D104200E9E9E0 /* AppDelegate.m */; };
 		7841D06A1D4D104200E9E9E0 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7841D0691D4D104200E9E9E0 /* FirstViewController.m */; };
@@ -45,6 +58,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4DCF29FB1D4EF3240062F1DA /* 리뷰_배너.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "리뷰_배너.png"; sourceTree = "<group>"; };
+		4DCF2A091D4F00D70062F1DA /* 리뷰_클리닉.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "리뷰_클리닉.png"; sourceTree = "<group>"; };
+		4DCF2A0A1D4F00D70062F1DA /* 리뷰_미용실.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "리뷰_미용실.png"; sourceTree = "<group>"; };
+		4DCF2A0B1D4F00D70062F1DA /* 리뷰_영양제.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "리뷰_영양제.png"; sourceTree = "<group>"; };
+		4DCF2A0C1D4F00D70062F1DA /* 리뷰_시술.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "리뷰_시술.png"; sourceTree = "<group>"; };
+		4DCF2A0D1D4F00D70062F1DA /* 리뷰_샴푸.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "리뷰_샴푸.png"; sourceTree = "<group>"; };
+		4DCF2A0E1D4F00D70062F1DA /* 리뷰_약품.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "리뷰_약품.png"; sourceTree = "<group>"; };
+		4DCF2A151D4F25610062F1DA /* DLRadioButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLRadioButton.h; sourceTree = "<group>"; };
+		4DCF2A161D4F25610062F1DA /* DLRadioButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLRadioButton.m; sourceTree = "<group>"; };
+		4DCF2A181D4F2DF50062F1DA /* Hospital.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hospital.png; sourceTree = "<group>"; };
+		4DCF2A191D4F2DF50062F1DA /* LOL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LOL.png; sourceTree = "<group>"; };
+		4DCF2A1A1D4F2DF50062F1DA /* Sad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sad.png; sourceTree = "<group>"; };
+		4DCF2A1E1D4F4B2A0062F1DA /* Leaf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Leaf.png; sourceTree = "<group>"; };
+		4DCF2A201D4F4CAF0062F1DA /* Exclamation Mark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Exclamation Mark.png"; sourceTree = "<group>"; };
 		7841D05F1D4D104200E9E9E0 /* Chaeum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chaeum.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7841D0631D4D104200E9E9E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7841D0651D4D104200E9E9E0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -125,6 +152,8 @@
 				7841D0981D4D15DA00E9E9E0 /* image */,
 				7841D0651D4D104200E9E9E0 /* AppDelegate.h */,
 				7841D0661D4D104200E9E9E0 /* AppDelegate.m */,
+				4DCF2A151D4F25610062F1DA /* DLRadioButton.h */,
+				4DCF2A161D4F25610062F1DA /* DLRadioButton.m */,
 				7841D0681D4D104200E9E9E0 /* FirstViewController.h */,
 				7841D0691D4D104200E9E9E0 /* FirstViewController.m */,
 				7841D06B1D4D104200E9E9E0 /* SecondViewController.h */,
@@ -167,6 +196,18 @@
 		7841D0981D4D15DA00E9E9E0 /* image */ = {
 			isa = PBXGroup;
 			children = (
+				4DCF2A091D4F00D70062F1DA /* 리뷰_클리닉.png */,
+				4DCF2A0A1D4F00D70062F1DA /* 리뷰_미용실.png */,
+				4DCF2A0B1D4F00D70062F1DA /* 리뷰_영양제.png */,
+				4DCF2A0C1D4F00D70062F1DA /* 리뷰_시술.png */,
+				4DCF2A0D1D4F00D70062F1DA /* 리뷰_샴푸.png */,
+				4DCF2A0E1D4F00D70062F1DA /* 리뷰_약품.png */,
+				4DCF29FB1D4EF3240062F1DA /* 리뷰_배너.png */,
+				4DCF2A181D4F2DF50062F1DA /* Hospital.png */,
+				4DCF2A1E1D4F4B2A0062F1DA /* Leaf.png */,
+				4DCF2A191D4F2DF50062F1DA /* LOL.png */,
+				4DCF2A1A1D4F2DF50062F1DA /* Sad.png */,
+				4DCF2A201D4F4CAF0062F1DA /* Exclamation Mark.png */,
 				7841D09E1D4D1CDF00E9E9E0 /* 성분.png */,
 				7841D0A91D4DB35000E9E9E0 /* 채움1.png */,
 				7841D0AA1D4DB35000E9E9E0 /* 채움2.png */,
@@ -283,18 +324,30 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DCF2A111D4F00D70062F1DA /* 리뷰_영양제.png in Resources */,
+				4DCF2A131D4F00D70062F1DA /* 리뷰_샴푸.png in Resources */,
+				4DCF2A101D4F00D70062F1DA /* 리뷰_미용실.png in Resources */,
+				4DCF2A1C1D4F2DF50062F1DA /* LOL.png in Resources */,
+				4DCF2A1B1D4F2DF50062F1DA /* Hospital.png in Resources */,
+				4DCF29FC1D4EF3240062F1DA /* 리뷰_배너.png in Resources */,
 				7841D0AB1D4DB35000E9E9E0 /* 채움1.png in Resources */,
+				4DCF2A0F1D4F00D70062F1DA /* 리뷰_클리닉.png in Resources */,
 				7841D0A61D4D1CE800E9E9E0 /* Home.png in Resources */,
 				7841D0A81D4DAF7A00E9E9E0 /* 리뷰.png in Resources */,
 				7841D0751D4D104200E9E9E0 /* LaunchScreen.storyboard in Resources */,
 				7841D09C1D4D17B700E9E9E0 /* Sprout.png in Resources */,
 				7841D0A21D4D1CDF00E9E9E0 /* 성분.png in Resources */,
 				7841D0721D4D104200E9E9E0 /* Assets.xcassets in Resources */,
+				4DCF2A121D4F00D70062F1DA /* 리뷰_시술.png in Resources */,
+				4DCF2A211D4F4CAF0062F1DA /* Exclamation Mark.png in Resources */,
+				4DCF2A141D4F00D70062F1DA /* 리뷰_약품.png in Resources */,
 				7841D0A41D4D1CDF00E9E9E0 /* 장터.png in Resources */,
 				7841D0701D4D104200E9E9E0 /* Main.storyboard in Resources */,
+				4DCF2A1D1D4F2DF50062F1DA /* Sad.png in Resources */,
 				7841D0A31D4D1CDF00E9E9E0 /* 썰전.png in Resources */,
 				7841D0AC1D4DB35000E9E9E0 /* 채움2.png in Resources */,
 				7841D0AE1D4DB78400E9E9E0 /* My.png in Resources */,
+				4DCF2A1F1D4F4B2A0062F1DA /* Leaf.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,6 +373,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7841D06D1D4D104200E9E9E0 /* SecondViewController.m in Sources */,
+				4DCF2A171D4F25610062F1DA /* DLRadioButton.m in Sources */,
 				7841D0671D4D104200E9E9E0 /* AppDelegate.m in Sources */,
 				7841D06A1D4D104200E9E9E0 /* FirstViewController.m in Sources */,
 				7841D0641D4D104200E9E9E0 /* main.m in Sources */,
@@ -548,6 +602,7 @@
 				7841D0911D4D104200E9E9E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7841D0921D4D104200E9E9E0 /* Build configuration list for PBXNativeTarget "ChaeumTests" */ = {
 			isa = XCConfigurationList;
@@ -556,6 +611,7 @@
 				7841D0941D4D104200E9E9E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7841D0951D4D104200E9E9E0 /* Build configuration list for PBXNativeTarget "ChaeumUITests" */ = {
 			isa = XCConfigurationList;
@@ -564,6 +620,7 @@
 				7841D0971D4D104200E9E9E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

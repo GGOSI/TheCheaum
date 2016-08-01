@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="49e-Tb-3d3">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="49e-Tb-3d3">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -198,6 +198,73 @@
                                 <rect key="frame" x="346" y="30" width="25" height="25"/>
                                 <state key="normal" image="My.png"/>
                             </button>
+                            <imageView userInteractionEnabled="NO" alpha="0.40000000000000002" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="리뷰_배너.png" translatesAutoresizingMaskIntoConstraints="NO" id="2gb-cc-gNX">
+                                <rect key="frame" x="0.0" y="63" width="375" height="110"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Review  발모준비인들의 소중한 후기가 담긴 공간입니다" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0lG-qW-ts6">
+                                <rect key="frame" x="0.0" y="63" width="375" height="95"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" alpha="0.40000000000000002" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="리뷰_클리닉.png" translatesAutoresizingMaskIntoConstraints="NO" id="h7l-YW-f2t">
+                                <rect key="frame" x="187" y="172" width="188" height="150"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" alpha="0.40000000000000002" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="리뷰_미용실.png" translatesAutoresizingMaskIntoConstraints="NO" id="CCN-dW-b8b">
+                                <rect key="frame" x="0.0" y="322" width="188" height="150"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" alpha="0.40000000000000002" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="리뷰_영양제.png" translatesAutoresizingMaskIntoConstraints="NO" id="hg2-hl-TlB">
+                                <rect key="frame" x="187" y="322" width="188" height="150"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" alpha="0.40000000000000002" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="리뷰_샴푸.png" translatesAutoresizingMaskIntoConstraints="NO" id="wZx-u3-cFe">
+                                <rect key="frame" x="0.0" y="472" width="188" height="150"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" alpha="0.40000000000000002" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="리뷰_약품.png" translatesAutoresizingMaskIntoConstraints="NO" id="j6q-Vm-4q1">
+                                <rect key="frame" x="187" y="472" width="188" height="150"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="클 리 닉" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uoy-qp-7Iw">
+                                <rect key="frame" x="187" y="172" width="188" height="100"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="미 용 실" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RMJ-V8-IjR">
+                                <rect key="frame" x="0.0" y="323" width="188" height="100"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="샴 푸" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CrB-1D-Kwg">
+                                <rect key="frame" x="0.0" y="472" width="188" height="100"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="약 품" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J05-p4-cs6">
+                                <rect key="frame" x="188" y="472" width="183" height="100"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="영 양 제" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Tm-BT-IFZ">
+                                <rect key="frame" x="187" y="323" width="184" height="100"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d7v-QD-AFi">
+                                <rect key="frame" x="0.0" y="172" width="188" height="100"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="41"/>
+                                <state key="normal" title="시 술">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <segue destination="d7r-aB-X2b" kind="show" id="22j-jG-c2b"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" alpha="0.40000000000000002" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="리뷰_시술.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ds9-HY-9Ln">
+                                <rect key="frame" x="0.0" y="172" width="188" height="150"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -208,7 +275,282 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Psc-h1-Set" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="750" y="2535"/>
+            <point key="canvasLocation" x="749.5" y="2990.5"/>
+        </scene>
+        <!--리뷰_시술/클리닉/미용실-->
+        <scene sceneID="dmc-fi-iVN">
+            <objects>
+                <viewController title="리뷰_시술/클리닉/미용실" id="d7r-aB-X2b" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="WCT-L3-AAA"/>
+                        <viewControllerLayoutGuide type="bottom" id="WvT-fg-s2J"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="1yc-Cp-gvw">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="1200"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WP4-FO-v4U">
+                                <rect key="frame" x="0.0" y="20" width="375" height="45"/>
+                                <color key="backgroundColor" red="0.64313725489999995" green="0.76078431369999999" blue="0.14901960780000001" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CZw-To-OpF">
+                                <rect key="frame" x="0.0" y="25" width="67" height="35"/>
+                                <state key="normal" title="Button" image="채움2.png"/>
+                            </button>
+                            <searchBar contentMode="redraw" fixedFrame="YES" searchBarStyle="minimal" text="" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hCT-cg-s1M">
+                                <rect key="frame" x="67" y="21" width="273" height="44"/>
+                                <color key="barTintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p3e-Sp-Mym">
+                                <rect key="frame" x="345" y="30" width="25" height="25"/>
+                                <state key="normal" image="My.png"/>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2MF-Nb-ngP">
+                                <rect key="frame" x="0.0" y="65" width="375" height="50"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iSw-4t-9Y9">
+                                <rect key="frame" x="0.0" y="65" width="100" height="50"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Review">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="jhE-I2-PKR" kind="show" id="u5T-w9-78K"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" alpha="0.40000000000000002" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="리뷰_시술.png" translatesAutoresizingMaskIntoConstraints="NO" id="VtN-hv-DId">
+                                <rect key="frame" x="0.0" y="115" width="375" height="110"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="시 술 / 클 리 닉 / 미 용 실" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="phq-Qe-dac">
+                                <rect key="frame" x="0.0" y="115" width="375" height="80"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FcA-vM-LAA" customClass="DLRadioButton">
+                                <rect key="frame" x="198" y="223" width="60" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <state key="normal" title="최신순">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="iconStrokeWidth">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="indicatorSize">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outletCollection property="otherButtons" destination="jb0-04-25S" id="Yyf-KO-ujG"/>
+                                    <outletCollection property="otherButtons" destination="c0E-VO-iod" id="W6J-dA-X1Z"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jb0-04-25S" customClass="DLRadioButton">
+                                <rect key="frame" x="257" y="223" width="60" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <state key="normal" title="조회순">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <outletCollection property="otherButtons" destination="FcA-vM-LAA" id="9Fc-0f-Ktb"/>
+                                    <outletCollection property="otherButtons" destination="c0E-VO-iod" id="tVj-QR-cxh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c0E-VO-iod" customClass="DLRadioButton">
+                                <rect key="frame" x="315" y="223" width="60" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <state key="normal" title="추천순">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="iconColor">
+                                        <color key="value" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outletCollection property="otherButtons" destination="FcA-vM-LAA" id="ddL-Gs-UvZ"/>
+                                    <outletCollection property="otherButtons" destination="jb0-04-25S" id="uax-WD-5N0"/>
+                                </connections>
+                            </button>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WI9-QA-7G2">
+                                <rect key="frame" x="-9" y="233" width="393" height="967"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Sprout.png" translatesAutoresizingMaskIntoConstraints="NO" id="CzM-Sd-Qtc">
+                                        <rect key="frame" x="21" y="20" width="55" height="60"/>
+                                    </imageView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="nicepwang 남성 31세" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="9kI-je-Z74">
+                                        <rect key="frame" x="78" y="35" width="295" height="45"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Hospital.png" translatesAutoresizingMaskIntoConstraints="NO" id="JkA-GS-69G">
+                                        <rect key="frame" x="21" y="88" width="55" height="60"/>
+                                    </imageView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="가톨릭대학교 성모병원" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="njy-IL-BSB">
+                                        <rect key="frame" x="78" y="103" width="295" height="45"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="평점" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="73q-Ep-Wlp">
+                                        <rect key="frame" x="21" y="156" width="55" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Leaf.png" translatesAutoresizingMaskIntoConstraints="NO" id="MwE-B9-Rjc">
+                                        <rect key="frame" x="78" y="156" width="30" height="30"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Leaf.png" translatesAutoresizingMaskIntoConstraints="NO" id="JzU-qL-Iby">
+                                        <rect key="frame" x="158" y="156" width="30" height="30"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Leaf.png" translatesAutoresizingMaskIntoConstraints="NO" id="7Dl-fk-vCK">
+                                        <rect key="frame" x="131" y="156" width="30" height="30"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Leaf.png" translatesAutoresizingMaskIntoConstraints="NO" id="qCU-sY-woI">
+                                        <rect key="frame" x="104" y="156" width="30" height="30"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="LOL.png" translatesAutoresizingMaskIntoConstraints="NO" id="4LJ-5G-jNy">
+                                        <rect key="frame" x="21" y="194" width="55" height="60"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Sad.png" translatesAutoresizingMaskIntoConstraints="NO" id="E3B-Gh-6An">
+                                        <rect key="frame" x="21" y="262" width="55" height="60"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Exclamation Mark.png" translatesAutoresizingMaskIntoConstraints="NO" id="ghe-bO-POW">
+                                        <rect key="frame" x="21" y="330" width="55" height="60"/>
+                                    </imageView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="가깝다" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="8W2-D5-3tV">
+                                        <rect key="frame" x="78" y="204" width="295" height="50"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="비싸다" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="6Vm-hQ-CKn">
+                                        <rect key="frame" x="78" y="272" width="295" height="50"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="평일 3시에 가면 의사가 잘생겼다" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Ijl-ZS-Lfy">
+                                        <rect key="frame" x="78" y="340" width="295" height="50"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Sprout.png" translatesAutoresizingMaskIntoConstraints="NO" id="yUx-tK-7Tx">
+                                        <rect key="frame" x="21" y="406" width="55" height="60"/>
+                                    </imageView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="nicepwang 남성 31세" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="qJg-Kv-6oe">
+                                        <rect key="frame" x="77" y="413" width="295" height="45"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Hospital.png" translatesAutoresizingMaskIntoConstraints="NO" id="SS1-NW-qKg">
+                                        <rect key="frame" x="20" y="466" width="55" height="60"/>
+                                    </imageView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="가톨릭대학교 성모병원" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="iA6-ZQ-SSV">
+                                        <rect key="frame" x="77" y="481" width="295" height="45"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="평점" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2AJ-6Q-mOJ">
+                                        <rect key="frame" x="20" y="534" width="55" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Leaf.png" translatesAutoresizingMaskIntoConstraints="NO" id="cZa-E6-yZC">
+                                        <rect key="frame" x="77" y="534" width="30" height="30"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Leaf.png" translatesAutoresizingMaskIntoConstraints="NO" id="kpZ-0f-MpZ">
+                                        <rect key="frame" x="157" y="534" width="30" height="30"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Leaf.png" translatesAutoresizingMaskIntoConstraints="NO" id="FPI-9t-3w7">
+                                        <rect key="frame" x="130" y="534" width="30" height="30"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Leaf.png" translatesAutoresizingMaskIntoConstraints="NO" id="8hf-eW-khE">
+                                        <rect key="frame" x="103" y="534" width="30" height="30"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Sprout.png" translatesAutoresizingMaskIntoConstraints="NO" id="3D4-Bp-8Em">
+                                        <rect key="frame" x="22" y="789" width="55" height="60"/>
+                                    </imageView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="nicepwang 남성 31세" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="jaI-S1-Ii1">
+                                        <rect key="frame" x="78" y="796" width="295" height="45"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Hospital.png" translatesAutoresizingMaskIntoConstraints="NO" id="Zwk-J9-M3h">
+                                        <rect key="frame" x="21" y="849" width="55" height="60"/>
+                                    </imageView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="가톨릭대학교 성모병원" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="mmi-Op-QhG">
+                                        <rect key="frame" x="78" y="864" width="295" height="45"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="평점" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nkj-oP-UBq">
+                                        <rect key="frame" x="21" y="917" width="55" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Leaf.png" translatesAutoresizingMaskIntoConstraints="NO" id="DwN-K5-Kup">
+                                        <rect key="frame" x="78" y="917" width="30" height="30"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Leaf.png" translatesAutoresizingMaskIntoConstraints="NO" id="a24-DY-oSb">
+                                        <rect key="frame" x="158" y="917" width="30" height="30"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Leaf.png" translatesAutoresizingMaskIntoConstraints="NO" id="Hk7-8o-Ot1">
+                                        <rect key="frame" x="131" y="917" width="30" height="30"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Leaf.png" translatesAutoresizingMaskIntoConstraints="NO" id="c6q-jo-15h">
+                                        <rect key="frame" x="104" y="917" width="30" height="30"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="LOL.png" translatesAutoresizingMaskIntoConstraints="NO" id="a7g-kO-qEP">
+                                        <rect key="frame" x="20" y="572" width="55" height="60"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Sad.png" translatesAutoresizingMaskIntoConstraints="NO" id="X2z-rA-Rnf">
+                                        <rect key="frame" x="20" y="640" width="55" height="60"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Exclamation Mark.png" translatesAutoresizingMaskIntoConstraints="NO" id="SgI-w6-Jtc">
+                                        <rect key="frame" x="20" y="708" width="55" height="60"/>
+                                    </imageView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="가깝다" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="rLB-rJ-OeC">
+                                        <rect key="frame" x="77" y="582" width="295" height="50"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="비싸다" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="hUe-zH-ja7">
+                                        <rect key="frame" x="77" y="650" width="295" height="50"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="평일 3시에 가면 의사가 잘생겼다" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="5sz-Dx-Wew">
+                                        <rect key="frame" x="77" y="718" width="295" height="50"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="375" height="1200"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sHs-VL-YK0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1341.5" y="2534.5"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="yl2-sM-qoP">
@@ -235,13 +577,29 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Exclamation Mark.png" width="48" height="48"/>
         <image name="Home.png" width="50" height="50"/>
+        <image name="Hospital.png" width="48" height="48"/>
+        <image name="LOL.png" width="48" height="48"/>
+        <image name="Leaf.png" width="48" height="48"/>
         <image name="My.png" width="50" height="50"/>
+        <image name="Sad.png" width="50" height="50"/>
+        <image name="Sprout.png" width="48" height="48"/>
         <image name="리뷰.png" width="50" height="50"/>
-        <image name="성분.png" width="30" height="30"/>
+        <image name="리뷰_미용실.png" width="142" height="85"/>
+        <image name="리뷰_배너.png" width="142" height="85"/>
+        <image name="리뷰_샴푸.png" width="142" height="85"/>
+        <image name="리뷰_시술.png" width="142" height="85"/>
+        <image name="리뷰_약품.png" width="142" height="85"/>
+        <image name="리뷰_영양제.png" width="142" height="85"/>
+        <image name="리뷰_클리닉.png" width="142" height="85"/>
         <image name="성분.png" width="50" height="50"/>
+        <image name="성분.png" width="30" height="30"/>
         <image name="썰전.png" width="50" height="50"/>
         <image name="장터.png" width="50" height="50"/>
         <image name="채움2.png" width="142" height="85"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="u5T-w9-78K"/>
+    </inferredMetricsTieBreakers>
 </document>
